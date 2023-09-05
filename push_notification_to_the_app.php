@@ -7,7 +7,7 @@ use App\Models\AppDevice;
 
 trait AppNotify
 {
-    private $auth_key = 'key=AAAAYlujsHQ:APA91bFZRCNe3D2_rLRRG9SLv6q8Ip7o_aF8HM72dx3lRFnR5X4c0ChUtwvU1EgG2oDkaTod9zh_H6PULyaxZ0gvds3t4q0QwZw6_aaXATGUwOM999CWVswhFnVcu0JkikIhs3yKUUSy';
+    private $auth_key = 'key=firebase_API_key';
     private $device_id_array = [];
     
     private $notification_data;
